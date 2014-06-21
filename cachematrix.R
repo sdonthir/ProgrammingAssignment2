@@ -1,5 +1,5 @@
 ## Create a special "matrix" object that can cache its inverse.
-
+## <<- is special operator used to assign a value to an object in an environment that is different from the current environment
 makeCacheMatrix <- function(x = matrix()) {
         m  <- NULL
         set <- function(y){
